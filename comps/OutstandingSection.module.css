@@ -1,0 +1,20 @@
+.outstanding {
+  padding: 1rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.outstanding_title {
+  margin-bottom: 1rem;
+}
+
+.outstanding_desc {
+  margin-bottom: 2rem;
+}
+
+.outstanding_cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

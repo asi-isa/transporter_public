@@ -1,0 +1,18 @@
+.contact {
+  margin: 3rem 0;
+}
+
+.contact_header {
+  text-align: center;
+}
+
+@media (min-height: 768px) {
+  .contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    margin-top: -8rem;
+  }
+}

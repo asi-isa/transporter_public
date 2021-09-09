@@ -1,0 +1,28 @@
+.about_header {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.profile_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 1rem;
+}
+
+.about_section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 1rem;
+  margin: 3rem 0;
+}
+
+@media (min-width: 768px) {
+  .about_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

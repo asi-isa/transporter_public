@@ -1,0 +1,19 @@
+.alert {
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #a35158;
+  border: 1px solid #a35158;
+}
+
+.success {
+  background-color: #d1e7dd;
+  color: #125335;
+  border: 1px solid #125335;
+}

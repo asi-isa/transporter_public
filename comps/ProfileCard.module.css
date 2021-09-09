@@ -1,0 +1,30 @@
+.profile_card {
+  padding: 0.6rem;
+  display: flex;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 2rem;
+}
+
+.img_container {
+  padding: 4rem;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.description {
+  color: gray;
+}
+
+@media (max-width: 333px) {
+  .img_container {
+    padding: 4rem;
+  }
+}
